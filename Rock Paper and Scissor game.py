@@ -16,7 +16,7 @@ else:
 
     while True:
         ComputerChoice = random.choice(ComputerList)
-        print("Computer choose: ", ComputerChoice,"!!")
+       ## print("Computer choose: ", ComputerChoice,"!!")
 
         while True:
             User_Input = input("Type either Rock, Scissor or paper: ").lower()
